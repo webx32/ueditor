@@ -1,0 +1,35 @@
+{
+  "name": "ueditor",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webx32/ueditor.git"
+  },
+  "description": "rich text",
+  "version": "1.4.3",
+  "author": "baidu",
+  "homepage": "http://ueditor.baidu.com",
+  "keywords": ["ueditor"],
+  "dependencies": {
+  },
+  "scripts": [
+    "ueditor.all.js"
+  ],
+  "main": [
+    "ueditor.all.js",
+    "ueditor.config.js"
+  ],
+  "styles": [
+    "themes/default/ueditor.css"
+  ],
+  "license": ["MIT"],
+  "dependencies": {},
+  "ignore": [
+    ".*",
+    "demos",
+    "gulpfile",
+    "build",
+    "node_modules",
+    "playground",
+    "package.json"
+  ]
+}
